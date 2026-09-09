@@ -69,12 +69,59 @@
         .cta-button:hover {
             background-color:#f0f0f0;
         }
+
+        /* New Section Styles */
+        .section-container {
+            padding: 80px 20px;
+            max-width: 960px;
+            margin: 0 auto;
+            text-align: center;
+        }
+        .section-container h2 {
+            font-size: 2.5rem;
+            margin-bottom: 1.5rem;
+            color: var(--primary-color);
+        }
+        .section-container p {
+            font-size: 1.1rem;
+            line-height: 1.8;
+            margin-bottom: 1rem;
+        }
+        .section-container.bg-light {
+            background-color: var(--background-color);
+        }
 </head>
 <body>
     <!-- Main content will go here -->
     <section class="hero">
         <h1>FinPlan</h1>
         <p>Seu dinheiro organizado. Suas decisões mais claras.</p>
+        <a href="#signup" class="cta-button">Comece agora</a>
+    </section>
+
+    <section class="section-container">
+        <h2>Benefícios do FinPlan</h2>
+        <p>Organize suas finanças, acompanhe seu patrimônio e tome decisões inteligentes com facilidade.</p>
+        <p>Tenha uma visão clara de onde seu dinheiro está indo e para onde ele pode ir.</p>
+    </section>
+
+    <section class="section-container bg-light">
+        <h2>Como o FinPlan Funciona</h2>
+        <p><strong>1. Conecte suas contas:</strong> Sincronize bancos e investimentos de forma segura.</p>
+        <p><strong>2. Categorize suas transações:</strong> Entenda seus gastos com relatórios automáticos.</p>
+        <p><strong>3. Visualize seu futuro financeiro:</strong> Crie orçamentos e metas personalizadas.</p>
+    </section>
+
+    <section class="section-container">
+        <h2>Nossos Diferenciais</h2>
+        <p>Interface intuitiva e moderna, segurança de dados de nível bancário e relatórios personalizados para suas necessidades.</p>
+        <p>Foco na usabilidade para que você tenha o controle financeiro sem complicações.</p>
+    </section>
+
+    <section class="section-container bg-light">
+        <h2>Transforme sua Vida Financeira</h2>
+        <p>Milhares de usuários já confiam no FinPlan para alcançar seus objetivos financeiros.</p>
+        <p>Junte-se a eles e comece a construir um futuro financeiro mais sólido e previsível hoje mesmo!</p>
         <a href="#signup" class="cta-button">Comece agora</a>
     </section>
 </body>
