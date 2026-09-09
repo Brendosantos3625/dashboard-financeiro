@@ -1,1 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FinPlan - Seu dinheiro organizado. Suas decisões mais claras.</title>
+    <style>
+        /* Essential Visual Tokens */
+        :root {
+            /* Colors */
+            --primary-color: #007bff; /* Exemplo de azul */
+            --secondary-color: #6c757d; /* Exemplo de cinza */
+            --text-color: #333;
+            --background-color: #f8f9fa;
 
+            /* Fonts */
+            --font-family-sans: 'Inter', sans-serif; /* Exemplo de fonte */
+            --font-size-base: 16px;
+            --line-height-base: 1.5;
+        }
+
+        body {
+            font-family: var(--font-family-sans);
+            font-size: var(--font-size-base);
+            line-height: var(--line-height-base);
+            color: var(--text-color);
+            background-color: var(--background-color);
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Basic Responsive Base */
+        html {
+            box-sizing: border-box;
+        }
+        *,
+        *::before,
+        *::after {
+            box-sizing: inherit;
+        }
+    </style>
+</head>
+<body>
+    <!-- Main content will go here -->
+    <h1>Bem-vindo ao FinPlan</h1>
+    <p>Seu dinheiro organizado. Suas decisões mais claras.</p>
+</body>
+</html>
